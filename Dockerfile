@@ -18,5 +18,4 @@ RUN apt-get -y install imagemagick --fix-missing
 
 # Add local node module binaries to PATH
 ENV PATH=./node_modules/.bin:$PATH \
-
-WORKDIR /opt/app
+WORKDIR $HOME
