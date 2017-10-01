@@ -17,5 +17,5 @@ RUN mix local.hex --force \
 RUN apt-get -y install imagemagick --fix-missing
 
 # Add local node module binaries to PATH
-ENV PATH=./node_modules/.bin:$PATH \
+ENV PATH=./node_modules/.bin:$PATH
 WORKDIR $HOME
