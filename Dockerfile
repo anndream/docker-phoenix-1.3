@@ -21,7 +21,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 		file \
 		g++ \
 		gcc \
-		imagemagick \
+		imagemagick-dev \
 		libbz2-dev \
 		libc6-dev \
 		libcurl4-openssl-dev \
