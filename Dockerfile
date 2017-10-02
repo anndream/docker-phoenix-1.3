@@ -64,8 +64,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && make install \
     && make clean \
     && ldconfig \
-		&& cd /tmp/install \
-		&& rm -rf ImageMagick-${MAGICK_VER}* \
 		&& apt-get -y purge libperl-dev \
 		&& rm -rf /var/lib/apt/lists/*
 
