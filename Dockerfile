@@ -67,7 +67,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 		&& apt-get -y purge libperl-dev \
 		&& rm -rf /var/lib/apt/lists/*
 
-COPY policy.xml /usr/local/etc/ImageMagick-6/policy.xml
+# COPY policy.xml /usr/local/etc/ImageMagick-6/policy.xml
 
 WORKDIR /
 
